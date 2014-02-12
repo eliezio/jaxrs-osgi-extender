@@ -9,3 +9,4 @@
 Private-Package: name.njbartlett.osgi.jaxrsextender
 Conditional-Package: name.njbartlett.osgi.utils
 Bundle-Activator: name.njbartlett.osgi.jaxrsextender.Activator
+Bundle-Version: 1.0.0

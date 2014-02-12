@@ -3,7 +3,8 @@
 	osgi.cmpn,\
 	javax.servlet,\
 	com.sun.jersey.jersey-core,\
-	com.sun.jersey.jersey-server
+	com.sun.jersey.jersey-server,\
+	com.sun.jersey.jersey-servlet
 
 Private-Package: name.njbartlett.osgi.jaxrsextender
 Conditional-Package: name.njbartlett.osgi.utils

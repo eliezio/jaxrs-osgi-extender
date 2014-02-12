@@ -48,8 +48,9 @@ As an alternative for maintaining the `JAX-RS-Classes` header, you can use the f
 Deploy to an OSGi runtime containing at least the following bundles:
 
 * An `HttpService` implementation, e.g. `org.apache.felix.http.jetty`
-* `jersey-core-1.4.jar`
-* `jersery-server-1.4.jar`
+* `jersey-core-1.18.jar`
+* `jersery-server-1.18.jar`
+* `jersery-servlet-1.18.jar`
 * The extender bundle from this project, i.e. `name.njbartlett.osgi.jaxrsextender`
 
 You should then be able to open the following URL and see the "Hello world!" message in your browser:

@@ -83,7 +83,7 @@ public class ResourceBundleTracker extends BundleTracker {
 			try {
 				classes.add(bundle.loadClass(path));
 			} catch (Exception e) {
-				log.log(LogService.LOG_ERROR, MessageFormat.format("Error laoding class \"{0}\" from bundle \"{1}\".", path, bundle.getLocation()), e);
+				log.log(LogService.LOG_ERROR, MessageFormat.format("Error loading class \"{0}\" from bundle \"{1}\".", path, bundle.getLocation()), e);
 			}
 		}
 		
